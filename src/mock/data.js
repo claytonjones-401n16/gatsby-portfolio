@@ -36,7 +36,7 @@ export const projectsData = [
     title: 'Dungeon Scribe',
     info: 'Online tool to create and manage Dungeons and Dragons characters and campaigns.',
     info2: 'Built with: JavaScript, React, Redux Toolkit, Node.js, Socket.io, Express',
-    url: 'dungeonscribe.io',
+    url: 'http://www.dungeonscribe.io',
     repo: '', // if no repo, the button will not show up
   },
   {
