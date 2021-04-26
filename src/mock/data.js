@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'claytonjones.jpeg',
   paragraphOne:
-    "I am a Software Developer with experience in both front and backend JavaScript, with a special interest in React. I love being able to create something. There's nothing quite like the feeling of building a website, or tool, and see it be successfully put to use.",
+    'I am a Software Developer based in Seattle with experience in front and backend JavaScript, with a special interest in creating single page applications with React.',
   paragraphTwo:
-    "I have been a licensed massage therapist for the last 6 years where I've worked one on one with clients to help them reach their goals. I’m passionate about helping others, and using programming to improve people’s lives.",
+    'With recent startup experience, I am comfortable being thrown head first into the stack to solve challenging problems on day one. I am as productive working on a cross-functional team as I am tackling features as a the only developer.',
   paragraphThree:
-    'As a massage therapist I’ve learned to effectively communicate and manage expectations while also establishing trust. Communication is the foundation of any company, team, or client relationship, and it is what enables us to make progress, and be successful.',
+    'Coming from a background in Massage Therapy I’ve learned to effectively communicate and manage expectations with clients while also establishing trust. Communication is the foundation of any company, team, or client relationship, and it is what enables us to make progress, and be successful.',
   resume:
     'https://docs.google.com/document/d/1XBA9v56nSzkeWUH0OqZ5Om2S4WOU3d4qdsZm4F1wsA8/edit?usp=sharing', // if no resume, the button will not show up
 };
@@ -32,12 +32,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'lightninglaw.png',
+    title: 'Lightning Law',
+    info: 'Online platform for law professionals.',
+    info2: 'Built with: React, JavaScript, HTML, SCSS, Azure DevOps, Git',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'dungeonscribe.png',
     title: 'Dungeon Scribe',
     info: 'Online tool to create and manage Dungeons and Dragons characters and campaigns.',
     info2: 'Built with: JavaScript, React, Redux Toolkit, Node.js, Socket.io, Express',
     url: 'http://www.dungeonscribe.io',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/Dungeons-Developers/DnD-React', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -47,7 +56,7 @@ export const projectsData = [
       'The basis for Dungeon Scribe, D&D Scribe is a CLI application that allows you to create Dungeons and Dragons characters.',
     info2: 'Built with: JavaScript, Node.js, Express, Readline',
     url: 'https://www.npmjs.com/package/dnd-scribe',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/Dungeons-Developers/DnD-client', // if no repo, the button will not show up
   },
 ];
 
