@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'I am a Software Developer based in Seattle with experience in front and backend JavaScript, with a special interest in creating single page applications with React.',
   paragraphTwo:
-    'With recent startup experience, I am comfortable being thrown head first into the stack to solve challenging problems on day one. I am as productive working on a cross-functional team as I am tackling features as a the only developer.',
+    'With recent startup experience, I am comfortable being thrown head first into the stack to solve challenging problems on day one. I am as productive working on a cross-functional team as I am tackling features as the only developer.',
   paragraphThree:
     'Coming from a background in Massage Therapy I’ve learned to effectively communicate and manage expectations with clients while also establishing trust. Communication is the foundation of any company, team, or client relationship, and it is what enables us to make progress, and be successful.',
   resume:
